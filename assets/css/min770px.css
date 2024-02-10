@@ -1,52 +1,81 @@
-@media (min-width: 770px) {
-body {
-    width: 600px;
-    line-height: 1.5;
+@media (min-width: 700px) {
+    body {
+        width: 700px;
+        line-height: 1.6;
+    }
+
+    main#content hr {
+        width: 108%;
+        margin-left: -3.8%;
+    }
+
+    /* index.html styles */
+    header#banner h2 {
+        font-size: 25px;
+        font-size: 2.2rem;
+    }
+
+    main#content h3 {
+        font-size: 20px;
+        font-size: 2rem;
+    }
+
+    main#content ul#posts {
+        font-size: 18px;
+        font-size: 1.8rem;
+    }
+
+    /* single.html styles */
+    main#content header#post-header h1 {
+        font-size: 24px;
+        font-size: 2.4rem;
+    }
+
+    main#content img {
+        max-width: 108%;
+        margin-left: -3.8%;
+    }
+
+    main#content figure {
+        margin-left: -3.8%;
+    }
+
+    main#content figure img {
+        max-width: 108%;
+    }
+
+    main#content pre {
+        width: 108%;
+        margin-left: -3.8%;
+        padding: 1.5rem 2.2rem;
+    }
 }
 
-main#content hr {
-    width: 108%;
-    margin-left: -3.8%;
+table th:first-of-type {
+    width: 10%;
 }
 
-/* index.html styles */
-header#banner h2 {
-    font-size: 25px;
-    font-size: 2.5rem;
+table th:nth-of-type(2) {
+    width: 10%;
 }
 
-main#content h3 {
-    font-size: 20px;
-    font-size: 2rem;
+table th:nth-of-type(3) {
+    width: 50%;
 }
 
-main#content ul#posts {
-    font-size: 18px;
-    font-size: 1.8rem;
+table th:nth-of-type(4) {
+    width: 30%;
 }
 
-/* single.html styles */
-main#content header#post-header h1 {
-    font-size: 24px;
-    font-size: 2.4rem;
+table {
+    width: 100%;
+    border: 1px solid #eeeeee;
+    border-collapse: collapse;
 }
 
-main#content img {
-    max-width: 108%;
-    margin-left: -3.8%;
-}
-
-main#content figure {
-    margin-left: -3.8%;
-}
-
-main#content figure img {
-    max-width: 108%;
-}
-
-main#content pre {
-    width: 108%;
-    margin-left: -3.8%;
-    padding: 1.5rem 2.2rem;
-}
+th,
+td {
+    border: 1px solid #eeeeee;
+    text-align: center;
+    padding: 6px;
 }
