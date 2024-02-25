@@ -261,7 +261,7 @@ main#content code {
     padding: 0 5px;
 }
 
-code:not([class]) {
+main#content code:not([class]) {
     color: #e03131;
     background-color: #f8f9fa;
     border-radius: 2px;
