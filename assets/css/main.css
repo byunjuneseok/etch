@@ -262,7 +262,6 @@ main#content code {
 }
 
 main#content code:not([class]) {
-    color: #e03131;
     background-color: #f8f9fa;
     border-radius: 2px;
     border: #f1f3f5 1px solid;
