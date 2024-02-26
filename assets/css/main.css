@@ -263,7 +263,7 @@ main#content code {
 
 main#content code:not([class]) {
     background-color: #f8f9fa;
-    border-radius: 2px;
+    border-radius: 0.4rem;
     border: #f1f3f5 1px solid;
 }
 
