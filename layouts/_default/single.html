@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article style="width: 100%:">
+<article style="width: 100%;">
     <header id="post-header">
         <h1>{{ .Title }}</h1>
         <div>
@@ -9,6 +9,16 @@
             {{ else }}
             <time>{{ .Lastmod | time.Format (i18n "post.updated") }}</time>
             {{ end }}
+            {{- end -}}
+        </div>
+        <!-- tags -->
+        <div>
+            {{- with .Params.tags -}}
+            <ul>
+                {{- range . -}}
+                <li><a href="{{ printf "/tags/%s" . | relURL }}">{{ . }}</a></li>
+                {{- end -}}
+            </ul>
             {{- end -}}
         </div>
     </header>
