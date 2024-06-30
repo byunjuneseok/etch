@@ -31,6 +31,12 @@
     <link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
     <link rel="canonical" href="{{ .Permalink }}" />
+    
+    {{ if .Param "math" }}
+        {{ partialCached "math.html" . }}
+    {{ end }}
+
+    
     <meta name="naver-site-verification" content="4c8b4dc10e494e199a0c7a58be1c456841c8665c" />
     <title>{{ .Title }}</title>
 </head>
