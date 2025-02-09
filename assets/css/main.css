@@ -286,6 +286,21 @@ main#content .footnotes {
     font-size: 0.9em;
 }
 
+main#content .footnotes hr {
+    margin: 20px 0;
+}
+
+main#content .footnotes ol {
+    padding-left: 0;
+    list-style: inside decimal;
+    margin: 0;
+    /* list-style: inside decimal; */
+}
+
+main#content .footnotes li p {
+    display: inline;
+}
+
 footer#footer {
     font-size: 14px;
     font-size: 1.4rem;
