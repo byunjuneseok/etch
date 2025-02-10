@@ -21,33 +21,30 @@ body {
 }
 
 header#banner {
-    margin: 25px 0 40px
+    display: flex;
+    align-items: center; /* 텍스트 수직 중앙 정렬 */
+    justify-content: space-between; /* 좌우 정렬 */
+    margin: 25px 0 40px;
 }
 
 header#banner a {
-    color: #313a3d;
+    color: #454545;
     text-decoration: none;
 }
 
-header#banner a:hover {
-    text-decoration: underline;
+header#banner h2 {
+    font-size: 2.1rem;
+    margin: 0;
 }
 
-header#banner h2 {
-    display: inline;
-    font-size: 21px;
-    font-size: 2.1rem;
-    margin: 0 8px 0 0;
-}
 
 header#banner nav {
-
-    /* display: inline-block; */
-    display: block;
-    float: right;
+    display: flex;
 }
 
 header#banner nav ul {
+    display: flex; /* 가로 정렬 */
+    align-items: center; /* 수직 정렬 */
     list-style-type: none;
     font-size: 1.05em;
     text-transform: lowercase;
@@ -56,8 +53,7 @@ header#banner nav ul {
 }
 
 header#banner nav ul li {
-    display: inline;
-    margin: 0 3px;
+    margin: 0 4px;
 }
 
 header#banner nav ul li a {
