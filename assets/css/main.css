@@ -297,6 +297,20 @@ main#content .footnotes li p {
     display: inline;
 }
 
+main#content sup {
+    vertical-align: top;
+    line-height: 1;
+}
+
+
+main#content .footnote-ref {
+    font-size: 0.8em;
+    /* vertical-align: super; */
+    vertical-align: bottom;
+    margin-left: 1px;
+    margin-right: 2px;
+}
+
 footer#footer {
     font-size: 14px;
     font-size: 1.4rem;
