@@ -27,8 +27,8 @@
 
 <hr style="margin-top: 4rem; margin-bottom: 3rem;">
 
-<!-- {{ template "_internal/disqus.html" . }} -->
-<script src="https://giscus.app/client.js"
+{{ template "_internal/disqus.html" . }}
+<!-- <script src="https://giscus.app/client.js"
         data-repo="byunjuneseok/binaryflavor.com"
         data-repo-id="R_kgDOLN28aw"
         data-category="General"
@@ -43,7 +43,7 @@
         data-loading="lazy"
         crossorigin="anonymous"
         async>
-</script>
+</script> -->
 
 {{ if .Store.Get "hasMermaid" }}
   <script type="module">
